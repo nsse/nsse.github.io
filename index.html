@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>nsse</title>
+  <style>
+body
+{
+
+color: white;
+ background-image:url(1.gif);
+background-size: cover;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+	background-position: center;
+
+ }
+
+input{width:25px;height:25px;background-color: transparent;}
+    a {
+                background-color: white;
+                border-radius: 5px;
+                text-align: center;
+    }
+    a:hover {
+                box-shadow: 0 5px 50px 0 white;
+                color: white;
+                border-radius: 5px;
+    }</style>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet prefetch" href="style.css">
+
+<body>
+  <header class="header">
+  <ul class="header__meta">
+        <li style="font-size:18px;color:#FFF;font-family:Garamond" onclick="location.href='https://twitter.com/nsse';">twitter.com/nsse</li>
+  </ul>
+  </header>
+  <canvas class="background" style='font-size:20px;text-align:center;color:#CB5E89'></canvas>
+  <script src="js/particles.min.js"></script>
+  <div class="middlelmao">
+  <br><br><br><br><br><br><br><br><br><br>
+  <h1 style='font-size:35px;text-align:center;text-shadow: 8px 8px 8px black;color:pink;font-family:Garamond'>Blossom</h1>
+    
+	<div class="container">
+        <div class="header__introduction">
+          <p style='font-size:17px;text-align:center;text-shadow: 10px 10px 10px black;color:pink;font-family:Garamond'>These are free, share them as you wish ♥</p>
+		  <br><br>
+          <div class="buttons">
+            <a class="button button--primary button--ps3azza" href="https://mega.nz/folder/eV8TgCJS#abt_1LnAnxNS7IET85Hgkg" target="_blank">
+              <div class="button__text">
+                <span class="button__action">PS3</span>
+                <span class="button__kind">Azza Tools</span>
+              </div>
+            </a>
+			<a class="button button--primary button--bo2pack" href="https://mega.nz/folder/DZ133QgK#bpLp4cgWhcXo7A6AowHq9A" target="_blank">
+              <div class="button__text">
+                <span class="button__action">PS3</span>
+                <span class="button__kind">BO2 Pack Menu</span>
+              </div>
+            </a>
+            <a class="button button--secondary button--ps4azza" href="https://mega.nz/folder/eMV1kArD#pHI992WlNszcnqYq8sG7KQ" target="_blank">
+              <div class="button__text">
+                <span class="button__action">PS4</span>
+                <span class="button__kind">Azza Tools</span>
+              </div>
+            </a>
+			<a class="button button--secondary button--exploit" href="./Exploit/index.html" target="_blank">
+              <div class="button__text" >
+                <span class="button__action">PS4</span>
+                <span class="button__kind">7.02 Exploit</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+	  <br>
+  </div>
+
+</body>
+<script>
+window.onload = function() {
+  Particles.init({
+    selector: '.background'
+  });
+};
+var particles = Particles.init({
+	selector: '.background',
+  color: ['#F7B1BF'],
+  speed: 0.3,
+  maxParticles: 130,
+  connectParticles: true
+  
+});
+
+</script>
+</html>
